@@ -1,0 +1,20 @@
+body {background-color: black;}
+
+#box {
+	width: 150px;
+	height: 150px;
+	background-color: limegreen;
+	animation: boxcombust 5s alternate;
+	animation-iteration-count:infinite;
+}
+
+@keyframes boxcombust {
+	0%{background-color: limegreen;}
+	50%{background-color: red;
+	transform: translate(350px, 545px) rotate3d(1,2,3,750deg) scale3d(5,2,4);
+	}
+	100%{background-color: 	blue;
+	border-radius: 50%;
+
+	
+}
